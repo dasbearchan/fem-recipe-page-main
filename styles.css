@@ -1,0 +1,66 @@
+:root {
+    --default-font: Outfit, sans-serif;
+    --default-font-weight: 400;
+    --heading-font: Young Serif, serif;
+    --heading-font-weight: 700;
+    --sub-heading-font-weight: 600;
+}
+
+html, body {
+    margin: 0px;
+    width: 100%;
+    font-family: var(--default-font);
+    font-weight: var(--default-font-weight)
+}
+
+body {
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+b {
+    font-weight: var(--sub-heading-font-weight)
+}
+
+h1 {
+    font-family: var(--heading-font);
+    font-weight: var(--heading-font-weight);
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+    font-family: var(--heading-font);
+    font-weight: var(--heading-font-weight)
+}
+
+/* hr {
+    height: 2px;
+} */
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    background-color: white;
+    padding: 2em;
+}
+
+image {
+    width: 100%
+}
+
+table {
+    width: 100%;
+}
+
+.preparation {
+    background-color: hsl(330, 100%, 98%);
+}
+
+.preparation h2 {
+    color: hsl(332, 51%, 32%);
+    font-family: var(--default-font);
+}
